@@ -1,0 +1,49 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "description": "This is my first post!",
+        "imgUrl": "https://www.impactbnd.com/hubfs/mockup-of-a-silver-iphone-8-plus-being-held-next-to-a-glass-of-lime-water-a21599%20%281%29.png",
+        "userId": 123,
+        "location": "New York City",
+        "likes": 10
+      },
+      {
+        "id": 2,
+        "description": "Throwback to last summer",
+        "imgUrl": "https://www.impactbnd.com/hubfs/mockup-of-a-silver-iphone-8-plus-being-held-next-to-a-glass-of-lime-water-a21599%20%281%29.png",
+        "userId": 456,
+        "location": "Los Angeles",
+        "likes": 25
+      },
+      {
+        "id": 3,
+        "description": "I love this view 😍",
+        "imgUrl": "https://www.impactbnd.com/hubfs/mockup-of-a-silver-iphone-8-plus-being-held-next-to-a-glass-of-lime-water-a21599%20%281%29.png",
+        "userId": 789,
+        "location": "San Francisco",
+        "likes": 17
+      }
+    ],
+    "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "username": "johndoe",
+      "email": "johndoe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "username": "janesmith",
+      "email": "janesmith@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "username": "bobjohnson",
+      "email": "bobjohnson@example.com"
+    }
+  ]
+  }
+  
