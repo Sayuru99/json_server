@@ -6,7 +6,8 @@
         "imgUrl": "https://www.impactbnd.com/hubfs/mockup-of-a-silver-iphone-8-plus-being-held-next-to-a-glass-of-lime-water-a21599%20%281%29.png",
         "userId": 123,
         "location": "New York City",
-        "likes": 10
+        "likes": 10,
+        "time": "12:23"
       },
       {
         "id": 2,
@@ -14,7 +15,8 @@
         "imgUrl": "https://www.impactbnd.com/hubfs/mockup-of-a-silver-iphone-8-plus-being-held-next-to-a-glass-of-lime-water-a21599%20%281%29.png",
         "userId": 456,
         "location": "Los Angeles",
-        "likes": 25
+        "likes": 25,
+        "time": "12:23"
       },
       {
         "id": 3,
@@ -22,27 +24,31 @@
         "imgUrl": "https://www.impactbnd.com/hubfs/mockup-of-a-silver-iphone-8-plus-being-held-next-to-a-glass-of-lime-water-a21599%20%281%29.png",
         "userId": 789,
         "location": "San Francisco",
-        "likes": 17
+        "likes": 17,
+        "time": "12:23"
       }
     ],
     "users": [
     {
-      "id": 1,
+      "id": 123,
       "name": "John Doe",
       "username": "johndoe",
-      "email": "johndoe@example.com"
+      "email": "johndoe@example.com",
+      "avatar": "https://i.imgur.com/9pNffkj.png"
     },
     {
-      "id": 2,
+      "id": 789,
       "name": "Jane Smith",
       "username": "janesmith",
-      "email": "janesmith@example.com"
+      "email": "janesmith@example.com",
+      "avatar": "https://i.imgur.com/9pNffkj.png"
     },
     {
-      "id": 3,
+      "id": 456,
       "name": "Bob Johnson",
       "username": "bobjohnson",
-      "email": "bobjohnson@example.com"
+      "email": "bobjohnson@example.com",
+      "avatar": "https://i.imgur.com/9pNffkj.png"
     }
   ]
   }
