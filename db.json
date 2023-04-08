@@ -7,7 +7,9 @@
         "userId": 123,
         "location": "New York City",
         "likes": 10,
-        "time": "12:23"
+        "time": "12:23",
+        "raisedAmount": 682122,
+        "totalAmount": 10300000
       },
       {
         "id": 2,
@@ -16,7 +18,9 @@
         "userId": 456,
         "location": "Los Angeles",
         "likes": 25,
-        "time": "12:23"
+        "time": "12:23",
+        "raisedAmount": 7020321,
+        "totalAmount": 10000000
       },
       {
         "id": 3,
@@ -25,7 +29,9 @@
         "userId": 789,
         "location": "San Francisco",
         "likes": 17,
-        "time": "12:23"
+        "time": "12:23",
+        "raisedAmount": 10000,
+        "totalAmount": 2000000
       }
     ],
     "users": [
