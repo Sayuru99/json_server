@@ -102,6 +102,18 @@
       "email": "bobjohnson@example.com",
       "avatar": "https://i.imgur.com/9pNffkj.png"
     }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Summer Music Festival",
+      "description": "Join us for a weekend of live music and fun!",
+      "lat": 40.7128,
+      "lng": -74.006,
+      "start_time": "2023-06-01T12:00:00Z",
+      "end_time": "2023-06-03T23:59:59Z",
+      "image_url": "https://example.com/images/summer_music_festival.jpg"
+    }
   ]
   }
   
