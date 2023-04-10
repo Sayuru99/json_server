@@ -79,8 +79,8 @@
         }
       ]
     }
-  ],  
-    "users": [
+  ],
+  "users": [
     {
       "id": 123,
       "name": "John Doe",
@@ -103,17 +103,39 @@
       "avatar": "https://i.imgur.com/9pNffkj.png"
     }
   ],
-  "events": [
+  "events":[
     {
       "id": 1,
-      "name": "Summer Music Festival",
-      "description": "Join us for a weekend of live music and fun!",
-      "lat": 40.7128,
-      "lng": -74.006,
-      "start_time": "2023-06-01T12:00:00Z",
-      "end_time": "2023-06-03T23:59:59Z",
-      "image_url": "https://example.com/images/summer_music_festival.jpg"
+      "name": "Galle Literary Festival",
+      "location": "Galle, Sri Lanka",
+      "description": "Join us for a weekend of literary events and workshops!",
+      "lat": 6.0320,
+      "lng": 80.2150,
+      "start_time": "2023-01-18T09:00:00Z",
+      "end_time": "2023-01-22T23:59:59Z",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/The_haze_of_winter_fades_2019_50x50.jpg/1200px-The_haze_of_winter_fades_2019_50x50.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Kandy Esala Perahera",
+      "location": "Kandy, Sri Lanka",
+      "description": "Witness the magnificent parade of elephants and dancers!",
+      "lat": 7.2906,
+      "lng": 80.6337,
+      "start_time": "2023-08-06T19:00:00Z",
+      "end_time": "2023-08-16T23:59:59Z",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/The_haze_of_winter_fades_2019_50x50.jpg/1200px-The_haze_of_winter_fades_2019_50x50.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sigiriya Rock Festival",
+      "location": "Sigiriya, Sri Lanka",
+      "description": "Experience live music at the top of Sigiriya Rock!",
+      "lat": 7.9572,
+      "lng": 80.7646,
+      "start_time": "2023-05-27T12:00:00Z",
+      "end_time": "2023-05-29T23:59:59Z",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/The_haze_of_winter_fades_2019_50x50.jpg/1200px-The_haze_of_winter_fades_2019_50x50.jpg"
     }
   ]
-  }
-  
+}
