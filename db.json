@@ -85,6 +85,9 @@
       "id": 123,
       "name": "John Doe",
       "username": "johndoe",
+      "location": "New York, NY",
+      "followers": 500,
+      "events": 10,
       "email": "johndoe@example.com",
       "avatar": "https://i.imgur.com/9pNffkj.png"
     },
@@ -92,6 +95,9 @@
       "id": 789,
       "name": "Jane Smith",
       "username": "janesmith",
+      "location": "San Francisco, CA",
+      "followers": 1000,
+      "events": 20,
       "email": "janesmith@example.com",
       "avatar": "https://i.imgur.com/9pNffkj.png"
     },
@@ -99,10 +105,13 @@
       "id": 456,
       "name": "Bob Johnson",
       "username": "bobjohnson",
+      "location": "Chicago, IL",
+      "followers": 750,
+      "events": 15,
       "email": "bobjohnson@example.com",
       "avatar": "https://i.imgur.com/9pNffkj.png"
     }
-  ],
+  ],  
   "events":[
     {
       "id": 1,
