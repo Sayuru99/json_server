@@ -5,7 +5,7 @@
       "description": "This is my first post!",
       "imgUrl": "https://www.impactbnd.com/hubfs/mockup-of-a-silver-iphone-8-plus-being-held-next-to-a-glass-of-lime-water-a21599%20%281%29.png",
       "userId": 123,
-      "location": "New York City",
+      "location": "Homagama, Sri lanka",
       "likes": 10,
       "time": "12:23",
       "raisedAmount": 682122,
@@ -14,17 +14,17 @@
         {
           "id": 1,
           "name": "John",
-          "avatar": "https://i.imgur.com/9pNffkj.png"
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
         },
         {
           "id": 2,
           "name": "Jane",
-          "avatar": "https://i.imgur.com/9pNffkj.png"
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
         },
         {
           "id": 3,
           "name": "Mike",
-          "avatar": "https://i.imgur.com/9pNffkj.png"
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
         }
       ]
     },
@@ -42,12 +42,12 @@
         {
           "id": 4,
           "name": "Lisa",
-          "avatar": "https://i.imgur.com/9pNffkj.png"
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
         },
         {
           "id": 5,
           "name": "Alex",
-          "avatar": "https://i.imgur.com/9pNffkj.png"
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
         }
       ]
     },
@@ -65,17 +65,17 @@
         {
           "id": 6,
           "name": "Sarah",
-          "avatar": "https://i.imgur.com/9pNffkj.png"
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
         },
         {
           "id": 7,
           "name": "David",
-          "avatar": "https://i.imgur.com/9pNffkj.png"
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
         },
         {
           "id": 8,
           "name": "Emily",
-          "avatar": "https://i.imgur.com/9pNffkj.png"
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
         }
       ]
     }
@@ -85,11 +85,11 @@
       "id": 123,
       "name": "John Doe",
       "username": "johndoe",
-      "location": "New York, NY",
+      "location": "Homagama, Sri lanka",
       "followers": 500,
       "events": 10,
       "email": "johndoe@example.com",
-      "avatar": "https://i.imgur.com/9pNffkj.png"
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
     },
     {
       "id": 789,
@@ -99,7 +99,7 @@
       "followers": 1000,
       "events": 20,
       "email": "janesmith@example.com",
-      "avatar": "https://i.imgur.com/9pNffkj.png"
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
     },
     {
       "id": 456,
@@ -109,7 +109,7 @@
       "followers": 750,
       "events": 15,
       "email": "bobjohnson@example.com",
-      "avatar": "https://i.imgur.com/9pNffkj.png"
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
     }
   ],  
   "events":[
