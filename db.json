@@ -158,5 +158,25 @@
       "end_time": "2023-05-29T23:59:59Z",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/The_haze_of_winter_fades_2019_50x50.jpg/1200px-The_haze_of_winter_fades_2019_50x50.jpg"
     }
+  ],
+  "userposts": [
+    {
+      "title": "Fundraiser for Cancer Research",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "https://example.com/image.jpg",
+      "raisedAmount": 5000,
+      "totalAmount": 10000,
+      "contributors": [
+        {
+          "name": "John Doe",
+          "avatar": "https://example.com/avatar.jpg"
+        },
+        {
+          "name": "Jane Doe",
+          "avatar": "https://example.com/avatar.jpg"
+        }
+      ]
+    }
+    
   ]
 }
