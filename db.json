@@ -3,6 +3,7 @@
     {
       "id": 1,
       "description": "LEO club of Battaramulla Beach Cleanup Volunteering Program",
+      "long_des": "Our Beach Cleanup Volunteering Program aims to raise awareness about the importance of preserving our oceans and protecting marine life. By participating in this event, you'll have the opportunity to actively contribute to the conservation of our beaches while enjoying a fulfilling and rewarding experience.",
       "imgUrl": "https://i.ibb.co/w6Tn8tj/441f7060-ef1e-4bc5-b34e-8d785fb1d79b.jpg",
       "userId": 123,
       "location": "Galle Beach, Sri lanka",
@@ -35,6 +36,7 @@
     {
       "id": 2,
       "description": "sansadaya Medical Fundraising Event",
+      "long_des": "Our Beach Cleanup Volunteering Program aims to raise awareness about the importance of preserving our oceans and protecting marine life. By participating in this event, you'll have the opportunity to actively contribute to the conservation of our beaches while enjoying a fulfilling and rewarding experience.",
       "imgUrl": "https://i.ibb.co/MkZyqrN/njs.png",
       "userId": 456,
       "location": "Cancer hospital maharagama ",
