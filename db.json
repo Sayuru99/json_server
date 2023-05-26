@@ -36,7 +36,7 @@
     {
       "id": 2,
       "description": "sansadaya Medical Fundraising Event",
-      "long_des": "Our Beach Cleanup Volunteering Program aims to raise awareness about the importance of preserving our oceans and protecting marine life. By participating in this event, you'll have the opportunity to actively contribute to the conservation of our beaches while enjoying a fulfilling and rewarding experience.",
+      "long_des": "The  Medical Fundraising Event is dedicated to raising funds to support individuals and families in need of medical assistance. By attending this event, you'll be playing a crucial role in helping us provide vital medical resources, treatments, and support to those facing health challenges.",
       "imgUrl": "https://i.ibb.co/MkZyqrN/njs.png",
       "userId": 456,
       "location": "Cancer hospital maharagama ",
@@ -63,9 +63,8 @@
     },
     {
       "id": 3,
-      "description": "Sarasavi society",
-      "long_des": "Our Beach Cleanup Volunteering Program aims to raise awareness about the importance of preserving our oceans and protecting marine life. By participating in this event, you'll have the opportunity to actively contribute to the conservation of our beaches while enjoying a fulfilling and rewarding experience.",
-      "imgUrl": "https://i.ibb.co/MkZyqrN/njs.png",
+      "description": "Calling all football enthusiasts and nature lovers! The Sarasavi Football Society is organizing a remarkable fundraising campaign to clean up our beloved beachside.",
+      "long_des": "The Sarasavi Football Society is excited to announce our upcoming fundraising campaign, aimed at cleaning up and preserving the breathtaking beauty of our local beachside. We believe in the power of collective action and the magic that unfolds when we combine our love for the game with our commitment to the environment.",
       "userId": 789,
       "location": "Rajagiriya, Sri Lanka",
       "likes": 17,
