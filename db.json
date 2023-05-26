@@ -95,12 +95,12 @@
   "users": [
     {
       "id": 123,
-      "name": "John Doe",
-      "username": "johndoe",
+      "name": "Tharun",
+      "username": "Tharun",
       "location": "Homagama, Sri lanka",
       "followers": 500,
       "events": 10,
-      "email": "johndoe@example.com",
+      "email": "Tharun@gmail.com",
       "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
     },
     {
