@@ -1,0 +1,186 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "description": "LEO club of Battaramulla Beach Cleanup Volunteering Program",
+      "long_des": "Our Beach Cleanup Volunteering Program aims to raise awareness about the importance of preserving our oceans and protecting marine life. By participating in this event, you'll have the opportunity to actively contribute to the conservation of our beaches while enjoying a fulfilling and rewarding experience.",
+      "imgUrl": "https://i.ibb.co/w6Tn8tj/441f7060-ef1e-4bc5-b34e-8d785fb1d79b.jpg",
+      "userId": 123,
+      "location": "Galle Beach, Sri lanka",
+      "likes": 10,
+      "time": "09:00",
+      "raisedAmount": 682122,
+      "totalAmount": 10300000,
+      "contributors": [
+        {
+          "id": 1,
+          "name": "John",
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Jane",
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Mike",
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+        }
+      ],
+      "images": [
+        "https://i0.wp.com/chaptersofmay.com/wp-content/uploads/2021/01/SlowStartNY_01.jpg",
+        "https://i0.wp.com/chaptersofmay.com/wp-content/uploads/2021/01/SlowStartNY_01.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "sansadaya Medical Fundraising Event",
+      "long_des": "The  Medical Fundraising Event is dedicated to raising funds to support individuals and families in need of medical assistance. By attending this event, you'll be playing a crucial role in helping us provide vital medical resources, treatments, and support to those facing health challenges.",
+      "imgUrl": "https://i.ibb.co/xzPnVxW/d2322180-bc36-4779-9411-f1b85b2015d7.jpg",
+      "userId": 456,
+      "location": "Cancer hospital maharagama ",
+      "likes": 25,
+      "time": "12:00",
+      "raisedAmount": 7020321,
+      "totalAmount": 10000000,
+      "contributors": [
+        {
+          "id": 4,
+          "name": "Lisa",
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Alex",
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+        }
+      ],
+      "images": [
+        "https://i0.wp.com/chaptersofmay.com/wp-content/uploads/2021/01/SlowStartNY_01.jpg",
+        "https://i0.wp.com/chaptersofmay.com/wp-content/uploads/2021/01/SlowStartNY_01.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Calling all football enthusiasts and nature lovers! The Sarasavi Football Society is organizing a remarkable fundraising campaign to clean up our beloved beachside.",
+      "long_des": "The Sarasavi Football Society is excited to announce our upcoming fundraising campaign, aimed at cleaning up and preserving the breathtaking beauty of our local beachside. We believe in the power of collective action and the magic that unfolds when we combine our love for the game with our commitment to the environment.",
+      "imgUrl": "https://i.ibb.co/MkZyqrN/njs.png",
+      "userId": 789,
+      "location": "Rajagiriya, Sri Lanka",
+      "likes": 17,
+      "time": "16:00",
+      "raisedAmount": 10000,
+      "totalAmount": 2000000,
+      "contributors": [
+        {
+          "id": 6,
+          "name": "Sarah",
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+        },
+        {
+          "id": 7,
+          "name": "David",
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Emily",
+          "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+        }
+      ],
+      "images": [
+        "https://i0.wp.com/chaptersofmay.com/wp-content/uploads/2021/01/SlowStartNY_01.jpg",
+        "https://i0.wp.com/chaptersofmay.com/wp-content/uploads/2021/01/SlowStartNY_01.jpg"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 123,
+      "name": "Tharun",
+      "username": "Tharun",
+      "location": "Homagama, Sri lanka",
+      "followers": 500,
+      "events": 10,
+      "email": "Tharun@gmail.com",
+      "avatar": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    {
+      "id": 789,
+      "name": "Jane Smith",
+      "username": "janesmith",
+      "location": "San Francisco, CA",
+      "followers": 1000,
+      "events": 20,
+      "email": "janesmith@example.com",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "id": 456,
+      "name": "Bob Johnson",
+      "username": "bobjohnson",
+      "location": "Chicago, IL",
+      "followers": 750,
+      "events": 15,
+      "email": "bobjohnson@example.com",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+    }
+  ],  
+  "events":[
+    {
+      "id": 1,
+      "name": "Galle Literary Festival",
+      "location": "Galle, Sri Lanka",
+      "description": "Join us for a weekend of literary events and workshops!",
+      "lat": 6.0320,
+      "lng": 80.2150,
+      "start_time": "2023-01-18T09:00:00Z",
+      "end_time": "2023-01-22T23:59:59Z",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/The_haze_of_winter_fades_2019_50x50.jpg/1200px-The_haze_of_winter_fades_2019_50x50.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Kandy Esala Perahera",
+      "location": "Kandy, Sri Lanka",
+      "description": "Witness the magnificent parade of elephants and dancers!",
+      "lat": 7.2906,
+      "lng": 80.6337,
+      "start_time": "2023-08-06T19:00:00Z",
+      "end_time": "2023-08-16T23:59:59Z",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/The_haze_of_winter_fades_2019_50x50.jpg/1200px-The_haze_of_winter_fades_2019_50x50.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sigiriya Rock Festival",
+      "location": "Sigiriya, Sri Lanka",
+      "description": "Experience live music at the top of Sigiriya Rock!",
+      "lat": 7.9572,
+      "lng": 80.7646,
+      "start_time": "2023-05-27T12:00:00Z",
+      "end_time": "2023-05-29T23:59:59Z",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/The_haze_of_winter_fades_2019_50x50.jpg/1200px-The_haze_of_winter_fades_2019_50x50.jpg"
+    }
+  ],
+  "userposts": [
+    {
+      "id": 223,
+      "title": "Fundraiser for Cancer Research",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "https://example.com/image.jpg",
+      "raisedAmount": 5000,
+      "totalAmount": 10000,
+      "contributors": [
+        {
+          "name": "John Doe",
+          "avatar": "https://example.com/avatar.jpg"
+        },
+        {
+          "name": "Jane Doe",
+          "avatar": "https://example.com/avatar.jpg"
+        }
+      ]
+    }
+    
+  ]
+}
