@@ -1,0 +1,263 @@
+{
+  "users": [
+    {
+      "_id": "mm2113asaae",
+      "name": "Nikila Perera",
+      "email": "nikila.perera@example.com",
+      "national_id": "A123456789",
+      "phone": "071-123-4567",
+      "profile_picture": "https://example.com/profile1.jpg",
+      "attended_events": ["event1", "event2"],
+      "purchased_tickets": [
+        {
+          "ticket_id": "ticket1abcd1234",
+          "event_id": "event1xy98",
+          "ticket_type": "early_bird",
+          "qr_code": "https://example.com/qr1.png",
+          "status": "active"
+        },
+        {
+          "ticket_id": "ticket2abcd5678",
+          "event_id": "event2xy78",
+          "ticket_type": "regular",
+          "qr_code": "https://example.com/qr2.png",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "_id": "mm3114bsbfb",
+      "name": "Sydney Sweeney",
+      "email": "sydney.sweeney@example.com",
+      "national_id": "B987654321",
+      "phone": "077-987-6543",
+      "profile_picture": "https://example.com/profile2.jpg",
+      "attended_events": ["event3xy24"],
+      "purchased_tickets": [
+        {
+          "ticket_id": "ticket3xyz9876",
+          "event_id": "event3xy24",
+          "ticket_type": "vip",
+          "qr_code": "https://example.com/qr3.png",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "_id": "mm4165fhfrf",
+      "name": "Chamika Silva",
+      "email": "chamika.silva@example.com",
+      "national_id": "C123987654",
+      "phone": "071-234-5678",
+      "profile_picture": "https://example.com/profile3.jpg",
+      "attended_events": ["event2xy78"],
+      "purchased_tickets": [
+        {
+          "ticket_id": "ticket4abcd3456",
+          "event_id": "event2xy78",
+          "ticket_type": "regular",
+          "qr_code": "https://example.com/qr4.png",
+          "status": "active"
+        }
+      ]
+    }
+  ],
+  "admins": [
+    {
+      "_id": "mm1315dfhdh",
+      "name": "Sayuru De Alwis",
+      "email": "sayuru.dealwis@example.com",
+      "role": "staff",
+      "event_management_access": ["event1xy98", "event2xy78"]
+    },
+    {
+      "_id": "mm2467dhdhd",
+      "name": "Kavinda Perera",
+      "email": "kavinda.perera@example.com",
+      "role": "manager",
+      "event_management_access": ["event2xy78", "event3xy24"]
+    },
+    {
+      "_id": "mm8376fhgfh",
+      "name": "Roshan Fernando",
+      "email": "roshan.fernando@example.com",
+      "role": "manager",
+      "event_management_access": ["event3xy24"]
+    }
+  ],
+  "events": [
+    {
+      "_id": "event1xy98",
+      "name": "Yaaga Event",
+      "date": "2025-02-20",
+      "location": "Tech Arena, Colombo, Sri Lanka",
+      "ticket_types": ["early_bird", "regular"],
+      "ticket_prices": {
+        "early_bird": 50,
+        "regular": 80
+      },
+      "total_tickets": 500,
+      "remaining_tickets": 250
+    },
+    {
+      "_id": "event2xy78",
+      "name": "Lake Night",
+      "date": "2025-03-10",
+      "location": "Music Grounds, Colombo, Sri Lanka",
+      "ticket_types": ["regular"],
+      "ticket_prices": {
+        "regular": 60
+      },
+      "total_tickets": 800,
+      "remaining_tickets": 600
+    },
+    {
+      "_id": "event3xy24",
+      "name": "Cinnamon Red",
+      "date": "2025-04-05",
+      "location": "Expo Center, Colombo, Sri Lanka",
+      "ticket_types": ["vip", "regular"],
+      "ticket_prices": {
+        "vip": 120,
+        "regular": 40
+      },
+      "total_tickets": 1000,
+      "remaining_tickets": 800
+    }
+  ],
+  "tickets": [
+    {
+      "_id": "ticket1abcd1234",
+      "event_id": "event1xy98",
+      "user_id": "mm2113asaae",
+      "ticket_type": "early_bird",
+      "status": "active",
+      "qr_code": "https://example.com/qr1.png",
+      "entry_status": "in"
+    },
+    {
+      "_id": "ticket2abcd5678",
+      "event_id": "event2xy78",
+      "user_id": "mm2113asaae",
+      "ticket_type": "regular",
+      "status": "active",
+      "qr_code": "https://example.com/qr2.png",
+      "entry_status": "out"
+    },
+    {
+      "_id": "ticket3xyz9876",
+      "event_id": "event3xy24",
+      "user_id": "mm3114bsbfb",
+      "ticket_type": "vip",
+      "status": "active",
+      "qr_code": "https://example.com/qr3.png",
+      "entry_status": "in"
+    },
+    {
+      "_id": "ticket4abcd3456",
+      "event_id": "event2xy78",
+      "user_id": "mm4165fhfrf",
+      "ticket_type": "regular",
+      "status": "active",
+      "qr_code": "https://example.com/qr4.png",
+      "entry_status": "out"
+    }
+  ],
+  "entry_exit_tracking": [
+    {
+      "ticket_id": "ticket1abcd1234",
+      "entry_status": "in",
+      "exit_status": "out",
+      "entry_time": "2025-02-20T08:45:00Z",
+      "exit_time": "2025-02-20T18:30:00Z"
+    },
+    {
+      "ticket_id": "ticket2abcd5678",
+      "entry_status": "out",
+      "exit_status": "out",
+      "entry_time": "2025-03-10T10:00:00Z",
+      "exit_time": "2025-03-10T19:00:00Z"
+    },
+    {
+      "ticket_id": "ticket3xyz9876",
+      "entry_status": "in",
+      "exit_status": "out",
+      "entry_time": "2025-04-05T09:00:00Z",
+      "exit_time": "2025-04-05T17:00:00Z"
+    }
+  ],
+  "temporary_re_entry_slips": [
+    {
+      "ticket_id": "ticket1abcd1234",
+      "temporary_qr": "https://example.com/qr-temp1.png",
+      "issued_at": "2025-02-20T10:30:00Z",
+      "issued_by": "mm1315dfhdh"
+    },
+    {
+      "ticket_id": "ticket3xyz9876",
+      "temporary_qr": "https://example.com/qr-temp2.png",
+      "issued_at": "2025-04-05T11:00:00Z",
+      "issued_by": "mm2467dhdhd"
+    },
+    {
+      "ticket_id": "ticket4abcd3456",
+      "temporary_qr": "https://example.com/qr-temp3.png",
+      "issued_at": "2025-03-10T11:30:00Z",
+      "issued_by": "mm8376fhgfh"
+    }
+  ],
+  "ticket_types": [
+    {
+      "type": "early_bird",
+      "price": 50,
+      "description": "Discounted ticket for early buyers"
+    },
+    {
+      "type": "regular",
+      "price": 80,
+      "description": "Standard ticket for general entry"
+    },
+    {
+      "type": "vip",
+      "price": 120,
+      "description": "VIP ticket with exclusive access"
+    }
+  ],
+  "event_stats": [
+    {
+      "event_id": "event1xy98",
+      "total_tickets_sold": 250,
+      "remaining_tickets": 250,
+      "total_revenue": 12500
+    },
+    {
+      "event_id": "event2xy78",
+      "total_tickets_sold": 200,
+      "remaining_tickets": 600,
+      "total_revenue": 12000
+    },
+    {
+      "event_id": "event3xy24",
+      "total_tickets_sold": 200,
+      "remaining_tickets": 800,
+      "total_revenue": 24000
+    }
+  ],
+  "profile_updates": [
+    {
+      "user_id": "mm2113asaae",
+      "updated_at": "2025-02-15T15:00:00Z",
+      "changes": ["updated email", "updated phone number"]
+    },
+    {
+      "user_id": "mm3114bsbfb",
+      "updated_at": "2025-03-05T10:30:00Z",
+      "changes": ["updated profile picture"]
+    },
+    {
+      "user_id": "mm4165fhfrf",
+      "updated_at": "2025-04-01T10:00:00Z",
+      "changes": ["updated ticket type"]
+    }
+  ]
+}
